@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    background-image: url("../Images/Gradient.png")
+}
+h1 {
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    font-style: italic;
+
+}
+
+p { 
+    font-family: serif;
+    font-size-adjust: none;
+    
+}
+
+/* navigation */ 
+
+header {
+    
+    gap: 15px;
+    height: 200px;
+    width: 100%;
+    display: inline-block;
+    place-content: right;
+}
+
+nav {
+    list-style: none;
+    display:  ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    outline-style:none;
+
+}
+
+.nav p{
+    display:;
+    justify-content: right center;
+
+}
+
+.header img {
+    width: 500px;
+    height: 300px;
+    padding: 1%;
+    margin: auto;
+}
+.header { 
+    background-color: antiquewhite;
+    background-image: url(../Images/Gradient.png);
+    background-size: cover;
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+    place-content: center;
+}
+
+.content {
+    
+    
+
+}
+
+
+.footer {
+    background-color: #bbbbff54;
+    padding: center;
+}
